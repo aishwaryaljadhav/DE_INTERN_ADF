@@ -1,0 +1,35 @@
+{
+	"name": "pipelineweb",
+	"properties": {
+		"activities": [
+			{
+				"name": "Webtest",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.00:11:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"method": "POST",
+					"headers": {
+						"name": "Aish"
+					},
+					"url": "\thttps://dummy.restapiexample.com/api/v1/create",
+					"body": {
+						"name": "test",
+						"salary": "123",
+						"age": "23"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-04-21T10:33:45Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

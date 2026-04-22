@@ -1,0 +1,9 @@
+{
+	"name": "adf-aish123",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4a49542b-424a-48ec-b6ea-03de3d368e5e",
+		"tenantId": "1afd0351-c8fc-42ac-8f82-53c5eeb3af80"
+	}
+}
